@@ -11,7 +11,7 @@ export default function Contact() {
         <br />
         I'd be happy to help you out!
         <br />
-        <a href="mailto:hello@kajetaniak.pl" className="underline-focus">
+        <a href="mailto:hi@andreu.io" className="underline-focus">
           <Underline>hi@andreu.io</Underline>
         </a>
       </p>
