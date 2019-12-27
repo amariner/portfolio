@@ -1,14 +1,11 @@
 import React from "react";
 import Underline from "../Underline/Underline";
-import Emoji from "../Emoji/Emoji";
 import "./Contact.scss";
 export default function Contact() {
   return (
     <section className="contact">
       <p>
-        <b>
-          Say hello! <Emoji alt="hello">🥋</Emoji>
-        </b>
+        <b>Say hello!</b>
         <br />
         Thanks for stopping by!
         <br />

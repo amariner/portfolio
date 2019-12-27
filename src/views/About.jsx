@@ -139,11 +139,9 @@ export default function About() {
         }}
       >
         I have commercial experience with these technologies{" "}
-        <Emoji alt="black belt">🥋</Emoji>
       </div>
       <div className="mobile-info" style={{ color: theme.grey }}>
         I have commercial experience with highlighted technologies{" "}
-        <Emoji alt="black belt">🥋</Emoji>
       </div>
     </Article>
   );
