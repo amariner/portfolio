@@ -1,0 +1,41 @@
+@import "./../../scss/variables";
+@import "./../../scss/mediaQueries";
+.header__img{
+  max-width: 400px;
+  width: 100%;
+}
+.hello-section {
+  margin-bottom: 240px;
+  max-width: 400px;
+  width: 100%;
+  margin-left: 75px;
+  b {
+    font-family: $gsb;
+    font-size: 1.2em;
+    letter-spacing: 0.05em;
+    margin-bottom: 30px;
+    display: inline-block;
+  }
+
+  p {
+    font-family: $gsm;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    letter-spacing: 0.03em;
+  }
+  @include medium {
+    margin-left: 45px;
+    font-size: 18px;
+  }
+  @include mobile {
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 18px;
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 160px;
+    p {
+      margin-top: 100px;
+    }
+  }
+}

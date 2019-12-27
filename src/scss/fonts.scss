@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: normal;
+  // unicode-range: U+0020-007F;
+  font-display: swap;
+  src: url("/fonts/GoogleSans-Regular.woff2");
+  src: local("Google Sans"), local("GoogleSans"),
+    url("/fonts/GoogleSans-Regular.woff2") format("woff2"),
+    url("/fonts/GoogleSans-Regular.woff") format("woff"),
+    url("/fonts/GoogleSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Google Sans Medium";
+  font-style: normal;
+  font-weight: normal;
+  // unicode-range: U+0020-007F;
+  font-display: swap;
+  src: url("/fonts/GoogleSans-Medium.woff2");
+  src: local("Google Sans Medium"), local("GoogleSansMedium"),
+    url("/fonts/GoogleSans-Medium.woff2") format("woff2"),
+    url("/fonts/GoogleSans-Medium.woff") format("woff"),
+    url("/fonts/GoogleSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Google Sans Bold";
+  font-style: normal;
+  font-weight: normal;
+  // unicode-range: U+0020-007F;
+  font-display: swap;
+  src: url("/fonts/GoogleSans-Bold.woff2");
+  src: local("Google Sans Bold"), local("GoogleSansBold"),
+    url("/fonts/GoogleSans-Bold.woff2") format("woff2"),
+    url("/fonts/GoogleSans-Bold.woff") format("woff"),
+    url("/fonts/GoogleSans-Bold.ttf") format("truetype");
+}

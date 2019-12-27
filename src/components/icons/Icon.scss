@@ -1,0 +1,21 @@
+@import "../../scss/variables";
+.icon {
+  cursor: pointer;
+  display: inline;
+  font-size: 24px;
+  line-height: 24px;
+  &.icon-light {
+    fill: lightgray;
+    &:hover,
+    :focus {
+      fill: $blue;
+    }
+  }
+  &.icon-dark {
+    fill: #434e61;
+    &:hover,
+    :focus {
+      fill: $pink;
+    }
+  }
+}

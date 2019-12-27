@@ -1,0 +1,39 @@
+@import "../../scss/variables";
+.underline {
+  font-family: $gsm;
+  transition: box-shadow 200ms;
+  padding: 0 0.05em 0.1em 0.05em;
+  cursor: pointer;
+  &.underline-light {
+    box-shadow: inset 0 -0.8em 0 -0.65em $blue;
+    &:hover {
+      box-shadow: inset 0 -2em 0 1em $blue;
+    }
+    &:focus {
+      outline: none;
+      box-shadow: inset 0 -2em 0 1em $blue;
+    }
+  }
+  &.underline-dark {
+    box-shadow: inset 0 -0.8em 0 -0.65em $pink;
+    &:hover {
+      box-shadow: inset 0 -2em 0 1em $pink;
+    }
+    &:focus {
+      outline: none;
+      box-shadow: inset 0 -2em 0 1em $pink;
+    }
+  }
+}
+
+.underline-focus {
+  &:focus {
+    outline: none;
+    .underline-light {
+      box-shadow: inset 0 -2em 0 1em $blue;
+    }
+    .underline-dark {
+      box-shadow: inset 0 -2em 0 1em $pink;
+    }
+  }
+}

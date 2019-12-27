@@ -1,0 +1,105 @@
+@import "../scss/mediaQueries";
+
+.badges-container {
+  line-height: 1.6em;
+  span {
+    transition: all 100ms ease-in-out;
+  }
+  @media only screen and (max-width: 483px) {
+    svg {
+      display: none;
+    }
+  }
+  &.badges-light {
+    .vue {
+      background-color: #dcf2e8;
+      color: #1fbe77;
+    }
+    .nuxt {
+      background-color: #dcf2e8;
+      color: #1fbe77;
+    }
+    .graphql {
+      background-color: #fce6f5;
+      color: #e535ab;
+    }
+    .sass {
+      background-color: #f6e3ec;
+      color: #cd6799;
+    }
+    .node {
+      background-color: #e4f3dd;
+      color: #6bbf47;
+    }
+    .firebase {
+      background-color: #fff5d8;
+      color: #f3a600;
+    }
+    .react {
+      background-color: #dbf7fe;
+      color: #00c8ff;
+    }
+    .redux {
+      background-color: #efeaf7;
+      color: #764abc;
+    }
+    .bootstrap {
+      background-color: #efebf6;
+      color: #7952b3;
+    }
+    .wordpress {
+      background-color: #e3f0f6;
+      color: #0073aa;
+    }
+    .javascript {
+      background-color: #fcf4c9;
+      color: #f0cc00;
+    }
+  }
+  &.badges-dark {
+    .vue {
+      background-color: #273d33;
+      color: #41b883;
+    }
+    .nuxt {
+      background-color: #273d33;
+      color: #41b883;
+    }
+    .graphql {
+      background-color: #48253c;
+      color: #f739b7;
+    }
+    .sass {
+      background-color: #47313b;
+      color: #e078ab;
+    }
+    .node {
+      background-color: #2f3e28;
+      color: #6bbf47;
+    }
+    .firebase {
+      background-color: #443c23;
+      color: #ffbf00;
+    }
+    .react {
+      background-color: #2d4349;
+      color: #61dafb;
+    }
+    .redux {
+      background-color: #352b46;
+      color: #8444eb;
+    }
+    .bootstrap {
+      background-color: #352c42;
+      color: #8857d1;
+    }
+    .wordpress {
+      background-color: #153d50;
+      color: #009be2;
+    }
+    .javascript {
+      background-color: #3b3821;
+      color: #f0cc00;
+    }
+  }
+}

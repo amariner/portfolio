@@ -1,0 +1,32 @@
+@import "../scss/mediaQueries";
+
+.work-header {
+  display: inline-block;
+  margin-bottom: 20px;
+  h1 {
+    margin: 0;
+  }
+}
+.clearfix {
+  clear: both;
+}
+.projects-section {
+  width: 100%;
+  h1 {
+    margin-left: 75px;
+    margin-bottom: 20px;
+  }
+  @include medium {
+    h1 {
+      font-size: 1.2em;
+      margin-left: 45px;
+    }
+  }
+  @include mobile {
+    h1 {
+      font-size: 21px;
+      margin-left: 0;
+      margin-bottom: 0;
+    }
+  }
+}

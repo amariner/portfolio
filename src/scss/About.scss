@@ -1,0 +1,125 @@
+@import "./variables";
+@import "./mediaQueries";
+
+.skills-section {
+  width: 100%;
+  padding: 0 75px;
+  margin: 60px 0;
+  display: grid;
+  grid-template-columns: 38.2% 61.8%;
+  grid-row-gap: 60px;
+  @include medium {
+    padding: 0 45px;
+  }
+  @include mobile {
+    padding: 0;
+  }
+}
+
+.column-left {
+  font-family: $gsb;
+  padding-right: 15px;
+  font-size: 22px;
+}
+
+.technologies-list {
+  list-style-type: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+  li {
+    // font-family: "Roboto", sans-serif;
+    font-family: $gsm;
+    padding: 5px 0;
+  }
+}
+
+.experienced {
+  background-color: #24467e;
+  padding: 0 4px;
+  border-radius: 3px;
+  transition: background-color 100ms ease-in-out;
+  font-family: $gsm;
+  cursor: default;
+  &.experienced-hover {
+    background-color: $pink;
+  }
+}
+
+.experience-column {
+  font-family: $gsm;
+  font-size: 1em;
+  line-height: 1.8em;
+}
+
+.skills-modal {
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  width: 650px;
+  height: 52px;
+  margin-left: -325px;
+  background-color: #212731;
+  border: 1px solid rgb(27, 27, 27);
+  border-radius: 3px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.493);
+  text-align: center;
+  padding: 15px;
+  z-index: 999;
+  opacity: 0;
+  transition: all 100ms ease-in-out;
+  transition-delay: 100ms;
+  &.modal-light {
+    background-color: white;
+    border: 1px solid $grey;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.21);
+  }
+  @include medium {
+    width: calc(100% - 130px);
+    left: 65px;
+    margin: 0;
+    height: auto;
+  }
+  @include mobile {
+    display: none;
+  }
+}
+
+.skills-section-light {
+  .experienced {
+    background-color: lighten($blue, 17%);
+    padding: 0 4px;
+    border-radius: 3px;
+    transition: background-color 100ms ease-in-out;
+    cursor: default;
+    &.experienced-hover {
+      background-color: lighten($blue, 5%);
+    }
+  }
+}
+
+.highlight {
+  background-color: $yellow;
+  font-family: $gsm;
+  padding: 0 4px;
+  border-radius: 3px;
+  transition: all 100ms ease-in-out;
+  &.highlight-dark {
+    background-color: #24467e;
+  }
+}
+
+.about-me-header {
+  padding-top: 20px;
+}
+.mobile-info {
+  max-width: 300px;
+  widows: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.9em;
+  display: none;
+  @include mobile {
+    display: block;
+  }
+}

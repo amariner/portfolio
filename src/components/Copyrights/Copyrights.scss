@@ -1,0 +1,30 @@
+@import "../../scss/variables";
+@import "../../scss/mediaQueries";
+
+.copyrights {
+  color: $grey;
+  font-size: 0.8em;
+  padding-bottom: 20px;
+  position: relative;
+  padding-left: 93px;
+  @include medium {
+    padding-left: 63px;
+  }
+  @include mobile {
+    padding-left: 18px;
+    padding-bottom: 0px;
+  }
+}
+.copyright-sign {
+  font-size: 1.6em;
+  position: absolute;
+  bottom: 11px;
+  left: 75px;
+  @include medium {
+    left: 45px;
+  }
+  @include mobile {
+    left: 0;
+    bottom: -9px;
+  }
+}
