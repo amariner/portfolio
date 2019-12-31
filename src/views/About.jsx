@@ -2,7 +2,9 @@ import React, { useEffect, useState, useContext } from "react";
 import themeContext from "../context/themeContext";
 import Emoji from "../components/Emoji/Emoji";
 import Article from "../components/Article/Article";
+
 import "../scss/About.scss";
+
 export default function About() {
   const { theme } = useContext(themeContext);
   const [modalVisible, setModalVisible] = useState(false);
@@ -54,6 +56,8 @@ export default function About() {
         in JavaScript. By night I cruise the city on my skateboard and dip my
         toes in back-end technologies, like Express and MongoDB.
       </p>
+      <img src="https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/images/frontend.png" />
+
       <section
         className={
           theme.name === "light"
