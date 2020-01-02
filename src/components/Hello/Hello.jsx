@@ -14,7 +14,7 @@ export default function Hello() {
       <p>
         <b>Andreu Mariner.</b>
         <br />I design and code user interfaces with React, Vue and JavaScript
-        in Warsaw.{" "}
+        in Castellò.{" "}
         <Link to="/about" className="underline-focus">
           <Underline>Roadmap!</Underline>
         </Link>
