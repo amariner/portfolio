@@ -55,7 +55,7 @@ export default function About() {
         Meanwhile, I spend most of my time doing all kinds of creative things.
         By day drawing, I compose music and work to achieve a black belt in
         JavaScript. Currently learning to incorporate Express and MongoDB.es in
-        my projects. .
+        my projects.
       </p>
 
       <section
@@ -70,7 +70,7 @@ export default function About() {
           Senior Front-End developer <br />
           Porcelanosa Group
           <br />
-          June 20012 - May 2019
+          June 2012 - Jan 2020
         </div>
         <div className="column-left">Skills</div>
         <div className="column-right">
