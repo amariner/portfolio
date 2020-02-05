@@ -42,8 +42,9 @@ export default function About() {
         Get to know me <Emoji />
       </h2>
       <p>
-        My name is Andreu Mariner. I'm a 28 years old self taught front-end dev.
-        I design and build web apps with React, Vue and JavaScript. Currently{" "}
+        My name is Andreu Mariner. I am a 29-year-old self-taught front-end
+        developer. Design and build web applications with React, Vue and
+        JavaScript. Currently{" "}
         <span
           className={
             theme.name === "light" ? "highlight" : "highlight highlight-dark"
@@ -51,12 +52,11 @@ export default function About() {
         >
           I am currently Senior Front-End developer position in Castelló.
         </span>{" "}
-        In the meantime I spend most of my time doing all kinds of creative
-        stuff. By day I draw, compose music and work on achieving a black belt
-        in JavaScript. By night I cruise the city on my skateboard and dip my
-        toes in back-end technologies, like Express and MongoDB.
+        Meanwhile, I spend most of my time doing all kinds of creative things.
+        By day drawing, I compose music and work to achieve a black belt in
+        JavaScript. Currently learning to incorporate Express and MongoDB.es in
+        my projects. .
       </p>
-      <img src="https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/images/frontend.png" />
 
       <section
         className={
